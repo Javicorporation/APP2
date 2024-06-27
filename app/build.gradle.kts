@@ -38,18 +38,19 @@ android {
         viewBinding = true
     }
 }
-
 dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.firebase.config.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+    implementation("com.google.firebase:firebase-config") //<-------
     implementation("com.google.firebase:firebase-analytics")
 
 }

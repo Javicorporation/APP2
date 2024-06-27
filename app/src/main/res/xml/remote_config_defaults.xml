@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap> // creamos una lista de entradas
+    <entry>
+        <key>cambiarTexto</key> // definimos las claves
+        <value>Escribe un texto.</value> // definimos los valores asociados a la clave
+    </entry>
+    <entry>
+        <key>mostrarBoton</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>
